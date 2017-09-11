@@ -1,0 +1,52 @@
+{
+  "name": "smart-project-react-project-demo",
+  "version": "0.0.1",
+  "description": "smart; front-end: webpack development tool;",
+  "scripts": {
+    "smart": "smart",
+    "start": "smart start",
+    "test": "smart test",
+    "pre": "smart build pre",
+    "release": "smart build release",
+    "eslint": "smart eslint",
+    "precommit": "cp pre-commit .git/hooks/"
+  },
+  "keywords": [
+    "smart",
+    "boy-smart",
+    "front-framework",
+    "ES6",
+    "es6",
+    "webpack",
+    "react",
+    "react-dom",
+    "react-router-dom",
+    "redux",
+    "react-redux",
+    "vue",
+    "vuex"
+  ],
+  "author": "09boy",
+  "license": "ISC",
+  "homepage": "https://github.com/09boy/boy-smart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/09boy/boy-smart.git"
+  },
+  "bugs": "https://github.com/09boy/boy-smart/issues",
+  "dependencies": {
+    "history": "^4.6.3",
+    "js-cookie": "^2.1.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.2",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1",
+    "store": "^2.0.12"
+  }
+}

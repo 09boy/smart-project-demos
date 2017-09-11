@@ -1,0 +1,41 @@
+{
+  "name": "smart-project-normal-project-demo",
+  "version": "0.0.1",
+  "description": "smart",
+  "scripts": {
+    "smart": "smart",
+    "start": "smart start",
+    "test": "smart test",
+    "pre": "smart build pre",
+    "release": "smart build release",
+    "eslint": "smart eslint",
+    "precommit": "cp pre-commit .git/hooks/"
+  },
+  "keywords": [
+    "smart",
+    "boy-smart",
+    "front-framework",
+    "ES6",
+    "es6",
+    "webpack",
+    "react",
+    "react-dom",
+    "react-router-dom",
+    "redux",
+    "react-redux",
+    "vue",
+    "vuex"
+  ],
+  "author": "09boy",
+  "license": "ISC",
+  "homepage": "https://github.com/09boy/boy-smart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/09boy/boy-smart.git"
+  },
+  "bugs": "https://github.com/09boy/boy-smart/issues",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "jquery": "^3.2.1"
+  }
+}
